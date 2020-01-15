@@ -1,2 +1,2 @@
-# ltp-html5-specialist
+# Lisa's HTML5 Specialist Repository
  
