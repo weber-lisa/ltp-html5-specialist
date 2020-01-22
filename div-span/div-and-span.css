@@ -1,0 +1,15 @@
+
+body{
+    margin:auto;
+    width: 65%;
+}
+.item{
+    background-color: antiquewhite;
+    border: 2px solid rgb(0,0,150);
+    padding: 1.5em;
+    margin-bottom: .75em;
+}
+span{
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
