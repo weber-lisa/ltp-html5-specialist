@@ -1,0 +1,35 @@
+body {
+    background-color: #fff5d7;
+    font-size: 1.12em;
+    color: gray;
+    margin: auto;
+    width: 65%;
+
+}
+h1 { font-family: 'Sigmar One', cursive;}
+p {font-family: 'Montserrat', sans-serif;}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:link {
+    color: #feb300;
+}
+
+a:visited {
+   
+    color: #ff5e6c;
+}
+
+a:hover {
+    color: #ffaaab;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+li {
+    list-style-type: circle;
+    font-family: 'Montserrat', sans-serif;
+}
