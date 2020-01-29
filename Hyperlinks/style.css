@@ -11,20 +11,21 @@ p {font-family: 'Montserrat', sans-serif;}
 
 a {
     text-decoration: none;
+    font-style: italic;
     
 }
 
 a:link {
-    color: #feb300;
+    color: brown;
 }
 
 a:visited {
    
-    color: #ff5e6c;
+    color: brown;
 }
 
 a:hover {
-    color: #ffaaab;
+    color:black;
     font-weight: bold;
     font-size: 1.25em;
 }
