@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- once again it states on the PDF for the assignment "Fix the errors, so the form displays correctly in your browser like this:
+", yet there are not images. I fixed this as I saw fit. -->
+<html>
+
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#" method="post">
+
+        <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"/>
+        
+        <label for="email">Email</label>
+            <input type="email" id="email" name="email"/><br/>
+
+        <p>What is your age group?</p>
+        <select name="ageG" id="ageG">
+            <option value="1">0-17</option>
+            <option value="2">18-24</option>
+            <option value="3">24-40</option>
+            <option value="4">40+</option>
+        </select>
+            <br>
+        <p>Gender</p>
+            <input type="checkbox" name="gender" value="M"> Male
+            <input type="checkbox" name="gender" value="F"> Female
+            <input type="checkbox" name="gender" value="O"> Other
+            
+            <label for="oNum">Order Number</label>
+            <input type="number" id="ordernumber" name="ordernumber" /><br />
+            
+            <label>Order Date</label>
+            <input type="date" id="oDate" name="oDate" value="mm/dd/yyyy"/>
+    </form>
+</body>
+
+</html>

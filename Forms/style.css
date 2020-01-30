@@ -1,0 +1,23 @@
+body {
+    background-color: #d7f2ff;
+    color: rgb(99, 97, 97);
+    margin: auto;
+    width: 65%;
+    padding-top: 30px;
+
+}
+h1, h3{
+   
+    font-family: 'Indie Flower', cursive;
+}
+p{
+    font-family: 'Muli', sans-serif;
+}
+form{
+    font-family: 'Muli', sans-serif;
+}
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
