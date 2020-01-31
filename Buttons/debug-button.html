@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Debug This</title>
+    <style>
+        form {
+            padding: 10px;
+            background-color: darkgrey;
+            width: 45%;
+        }
+
+        .container {
+            margin: 20px;
+        }
+
+        #gender,
+        #address {
+            margin-left: 10%;
+        }
+
+        button {
+            background-color: white;
+            padding: 10px 25px;
+            text-align: center;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Student's Information Form </h1>
+    <form>
+        <div class="container">
+            <label for="studentName"> Name
+                <input type="text" id="studentName" />
+            </label>
+        </div>
+        <div class="container">
+            <label for="studentEmail"> Email
+
+            </label>
+            <input type="email" id="studentEmail" />
+        </div>
+        <div class="container"><label for="gender"> Gender </label> <br />
+            <input type="radio" id="mgender" name="mgender" value="male" /> Male <br />
+            <input type="radio" id="fgender" name="fgender" value="female" /> Female
+            <br />
+        </div>
+        <div class="container">
+            <label for="address"> Address
+
+            </label>
+            <br />
+            <textarea id="address" rows="5">
+
+                </textarea>
+        </div>
+        <div class="container">
+            <button type="submit" class="submit"> Submit </button>
+            <button type="reset" class="reset"> Clear </button>
+        </div>
+    </form>
+</body>
+
+</html>
