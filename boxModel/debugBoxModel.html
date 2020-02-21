@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Debug This</title>
+    <style>
+        #testimonial {
+            margin: 0 0 0 30px;
+            width: 25%;
+            height: 100px;
+            font-style: italic;
+            border: 10px dotted;
+            position: relative;
+        }
+
+        #testimonial:before,
+        #testimonial:after {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            top: 100%;
+            left: 15%;
+            border-left: 0px solid transparent;
+        }
+
+        #testimonial:before {
+            border-right: 34px solid transparent;
+            border-top: 34px solid black;
+            z-index: 1;
+        }
+
+        #testimonial:after {
+            margin-top: -1px;
+            margin-left: 1px;
+            border-right: 33px solid transparent;
+            border-top: 33px solid white;
+            z-index: 2;
+        }
+
+        h4 {
+            text-align: left;
+        }
+        .name{
+            margin: 10px;
+            padding-left: 30px;
+            border: 10px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="testimonial">
+        <p> You're awesome!</p>
+
+    </div>
+    <div class="name">
+        <h4> Jonah Castro </h4>
+    </div>
+</body>
+
+</html>
