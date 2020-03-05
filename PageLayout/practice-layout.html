@@ -2,12 +2,64 @@
 <html>
 
 <head>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
     <title>Page Layout</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <style>
+        #container{
+            width: 90%;
+            background-color: #eee;
+            margin: 0 auto;
+            padding-left: 3px;
+            padding-right: 3px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.1em;
+        }
+        header{
+            text-align: center;
+            background-color: #121211;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+        footer {
+            border-top: 1px solid black;
+            font-size: .75em;
+            clear:both;
+        }
+        #colA{
+            width: 20%;
+            float: left;
+            border-right: 1px solid black;
+
+        }
+        #colB{
+            width: 57%;
+            float: left;
+            padding-left: 5px;
+            padding-right: 5px;
+
+        }
+        #colC{
+            width: 20%;
+            float: left;
+        }
+        @media only screen and (max-width: 600px){
+            #colA, #colB, #colC {
+                float:none;
+                width:100%;
+            }
+            #colA{
+                border-right: none;
+            }
+        }
+    </style>
+ 
 </head>
 
 <body>
     <div id="container">
+    
         <header>
             <h1>Connecticut News</h1>
         </header>
