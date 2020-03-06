@@ -5,76 +5,80 @@
 
     <title>Layout Lab</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
-</head>
-<style>
-    .container {
-        width: 90%;
-        margin: 0 auto;
-        padding-left: 3px;
-        padding-right: 3px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.1em;
-        background-color: rgb(218, 70, 127);
-    }
 
-    header {
-        text-align: center;
-        background-color: #121211;
-        color: white;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    <style>
+        header {
+            text-align: center;
+            background-color: #121211;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
 
-    }
-
-    #colA {
-        width: 20%;
-        float: left;
-
-
-    }
-
-    #colB {
-        width: 55%;
-        float: left;
-        padding-left: 10px;
-        padding-right: 10px;
-
-    }
-
-    #colC {
-        width: 20%;
-        float: left;
-    }
-
-    @media only screen and (max-width: 600px) {
-
-        #colA,
-        #colB,
-        #colC {
-            float: none;
-            width: 100%;
         }
 
-
-    }
-
-    @media only screen and (max-width: 750px) {
         #colA {
-            float: none;
-            width: 100%;
+            width: 20%;
+            float: left;
+
+
+        }
+
+        #colB {
+            width: 55%;
+            float: left;
+            padding-left: 10px;
+            padding-right: 10px;
+
+        }
+
+        #colC {
+            width: 20%;
+            float: left;
+        }
+
+        #main {
+            width: 90%;
+            margin: 0 auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.1em;
+            
+
         }
 
 
-    }
-</style>
+        @media only screen and (max-width: 600px) {
+
+            #colA,
+            #colB,
+            #colC {
+                float: none;
+                width: 100%;
+            }
+
+
+        }
+
+        @media only screen and (max-width: 750px) {
+            #colA {
+                float: none;
+                width: 100%;
+            }
+
+
+        }
+    </style>
+</head>
 
 <body>
+   
 
-    <header>
-        <h1>News About Nothing</h1>
-        <h2>All the Nothing News That's Fit to Post</h2>
-    </header>
-    <div class="container">
+        <header>
+            <h1>News About Nothing</h1>
+            <h2>All the Nothing News That's Fit to Post</h2>
+        </header>
+        <div id="main">
         <div id="colA">
             <h3>Airliner Takes Off, Lands Normally</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc metus nulla, ultricies sed luctus ut,
@@ -217,6 +221,7 @@
             </p>
         </div>
     </div>
+
     <!-- end of container -->
 </body>
 
