@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box Gallery </title>
+    <style>
+        img{
+            width: 300px;
+        }
+        #railroad-image, #sky-image, #field-image{
+            
+            border: 1px solid black;
+            font-family: Arial;
+            font-size: .75em;
+            padding: 10px;
+            width: 300px;
+
+        }
+        #title{
+        text-align: center;
+        }
+        
+        #main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+        }
+        @media only screen and (max-width: 800px){
+            #railroad-image, #sky-image, #field-image{ border: none;}
+        }
+      
+
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Gallery with Flexbox</h1>
+    <div id="main">
+      
+        <div id="railroad-image">
+            <h1>On-Ward</h1>
+            <img src="images/railroad.jpg" alt="railroad">
+            Image by <a
+                href="https://pixabay.com/users/Larisa-K-1107275/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=163518">Larisa
+                Koshkina</a> from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=163518">Pixabay</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel molestie sapien. Nulla fringilla est
+                vitae commodo tempor.</p>
+        </div>
+        <div id="sky-image">
+            <h1>Up-Ward</h1>
+            <img src="images/sky1.jpg" alt="picture of the sky">
+            Image by <a
+                href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690293">Free-Photos</a>
+            from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690293">Pixabay</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel molestie sapien. Nulla fringilla est
+                vitae commodo tempor.</p>
+
+        </div>
+        <div id="field-image">
+            <h1>Grounded</h1>
+            <img src="images/field.jpg" alt="field of flowers">
+            Image by <a
+                href="https://pixabay.com/users/Larisa-K-1107275/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=276014">Larisa
+                Koshkina</a> from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=276014">Pixabay</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel molestie sapien. Nulla fringilla est
+                vitae commodo tempor.</p>
+        </div>
+    </div>
+</body>
+
+</html>
