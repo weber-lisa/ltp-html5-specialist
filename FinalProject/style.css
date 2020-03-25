@@ -1,11 +1,46 @@
-body {
-    background-color: #d7f2ff;
-    color: rgb(99, 97, 97);
-    margin: auto;
-    width: 65%;
-    padding-top: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@0,300;0,400;0,500;0,800;1,400&display=swap');
 
+*{
+    margin:0;
+    padding:0;
+    background-origin: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F0F0F0;
+    
+}
+h1{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Indie Flower', cursive;
+}
+header{
+    text-align: center;
+    background-color: #004261;
+    color:#ebf8ff;
+    padding:50px;
+}
+header h1{
+    font-size: 3.5em;
+}
+main{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 50px;
 }
 .button{
+    font-family: 'Indie Flower', cursive;
     background-color: #004261;
+}
+.top{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#icon{
+    font-size: 3em;
+    padding: 12px;
 }
