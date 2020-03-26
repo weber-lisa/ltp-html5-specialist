@@ -1,63 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@0,300;0,400;0,500;0,800;1,400&display=swap');
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     background-origin: border-box;
 }
-body{
+
+body {
     font-family: 'Montserrat', sans-serif;
     /* background-color: #F0F0F0; */
-    
+
 }
-h1{
+
+h1 {
     font-weight: bold;
     font-variant: small-caps;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Indie Flower', cursive;
 }
-header{
+
+header {
     text-align: center;
     background-color: #004261;
-    color:#ebf8ff;
-    padding:50px;
+    color: #ebf8ff;
+    padding: 50px;
 }
-header h1{
+
+header h1 {
     font-size: 3.5em;
 }
-main{
+
+main {
     width: 90vw;
     margin: 0 auto;
     padding: 50px;
 }
-.button{
+
+.button {
     font-family: 'Indie Flower', cursive;
     background-color: #004261;
 }
-.top{
+
+.top {
     text-align: center;
     font-weight: bolder;
     font-size: xx-large;
     margin-bottom: 1.2em;
 }
-#icon{
+
+#icon {
     font-size: 3em;
-  
+
 }
-.content{
+
+.content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
 }
+
 img {
     width: 300px;
-   height: 400px;
+    height: 400px;
 
 
 }
-button{
+
+button {
 
     font-size: 100%;
     font-family: inherit;
@@ -69,51 +86,81 @@ button{
     border: 2px solid #004261;
     transition-duration: 0.4s;
 }
-button:hover{
+
+button:hover {
     background-color: #9c0069;
     color: white;
 }
-.sec1, .sec2,.sec3, .sec4, .sec5, .sec6, .sec7, .sec8, .sec9, .sec10, .sec11, .sec12, .sec13, .sec14, .sec15, .sec16 {
+
+.sec1,
+.sec2,
+.sec3,
+.sec4,
+.sec5,
+.sec6,
+.sec7,
+.sec8,
+.sec9,
+.sec10,
+.sec11,
+.sec12,
+.sec13,
+.sec14,
+.sec15,
+.sec16 {
     display: flex;
     flex-direction: column;
 }
-footer{
+
+footer {
     text-align: center;
     background-color: #004261;
-    color:#ebf8ff;
-    padding:25px;
+    color: #ebf8ff;
+    padding: 25px;
 
 }
-footer a{
+
+footer a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
 
 }
+
 footer a:hover {
     font-style: italic;
-    
+
     font-size: 1.2em;
-  }
-  
-  footer a:active {
-  
+}
+
+footer a:active {
+
     text-decoration: underline;
 
-  }
-  
-  footer a:visited {
-    color: white;
-  }
+}
 
-#privacy-p{
+footer a:visited {
+    color: white;
+}
+
+#privacy-p {
     margin: auto;
     width: 65%;
     padding-top: 30px;
     margin-bottom: 25px;
     line-height: 1.5em;
 }
-#privacy-p h1, h2, h3, h4, h5, h6{
+
+#privacy-p h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     line-height: 40px;
 }
-ul {margin-left: 0; padding-left: 40px;}
+
+ul {
+    margin-left: 0;
+    padding-left: 40px;
+}
