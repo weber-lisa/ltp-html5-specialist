@@ -39,10 +39,11 @@ main{
     text-align: center;
     font-weight: bolder;
     font-size: xx-large;
+    margin-bottom: 1.2em;
 }
 #icon{
     font-size: 3em;
-    padding: 12px;
+  
 }
 .content{
     display: flex;
