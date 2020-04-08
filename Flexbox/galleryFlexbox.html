@@ -6,40 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex-box Gallery </title>
     <style>
-        img{
+        img {
             width: 300px;
         }
-        #railroad-image, #sky-image, #field-image{
-            
+
+        #railroad-image,
+        #sky-image,
+        #field-image,
+        .gallery {
+
             border: 1px solid black;
             font-family: Arial;
             font-size: .75em;
             padding: 10px;
+            margin: 15px;
             width: 300px;
 
         }
-        #title{
-        text-align: center;
+
+        #title {
+            text-align: center;
         }
-        
-        #main{
+
+        #main {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
-            
-        }
-        @media only screen and (max-width: 800px){
-            #railroad-image, #sky-image, #field-image{ border: none;}
-        }
-      
 
+        }
+
+        /* @media only screen and (max-width: 800px) {
+
+            #railroad-image,
+            #sky-image,
+            #field-image {
+                border: none;
+            }
+        } */
     </style>
 </head>
 
 <body>
     <h1 id="title">Gallery with Flexbox</h1>
     <div id="main">
-      
+
         <div id="railroad-image">
             <h1>On-Ward</h1>
             <img src="images/railroad.jpg" alt="railroad">
@@ -71,7 +81,49 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel molestie sapien. Nulla fringilla est
                 vitae commodo tempor.</p>
         </div>
+        <div class="gallery">
+            <h1>Mountain</h1>
+            <img src="images/mountains-trees-829037-tablet.jpg" alt="red mountain with trees">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel molestie sapien. Nulla fringilla est
+                vitae commodo tempor.</p>
+        </div>
+        <div class="gallery">
+            <h1>Rocks on Bay</h1>
+            <img src="images/rocks-on-bay-775364-tablet.jpg" alt="rocks on bay ocean">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel molestie sapien. Nulla fringilla est
+                vitae commodo tempor.</p>
+        </div>
+        <div class="gallery">
+            <h1>Oregon Coast</h1>
+            <img src="images/oregon-coast-1199267-tablet.jpg" alt="oregon coast">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel molestie sapien. Nulla fringilla est
+                vitae commodo tempor.</p>
+        </div>
+        <div class="gallery">
+            <h1>Reflection on Lake</h1>
+            <img src="images/lake-reflections-1113550-tablet.jpg" alt="Reflection on Lake">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel molestie sapien. Nulla fringilla est
+                vitae commodo tempor.</p>
+                
+        </div>
+        <div class="gallery">
+            <h1>Walking Bridge in the Fall</h1>
+            <img src="images/autumn-country-bridge-887758-tablet.jpg" alt="country walking Bridge fall">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel molestie sapien. Nulla fringilla est
+                vitae commodo tempor.</p>
+                
+        </div>
+        <div class="gallery">
+            <h1>City on Ocean</h1>
+            <img src="images/city-on-ocean-1109981-tablet.jpg" alt="City on ocean jetty">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel molestie sapien. Nulla fringilla est
+                vitae commodo tempor.</p>
+                
+        </div>
     </div>
+    <footer>
+        <p><em>Photo credit for the last nine pictures in the art gallery: <a href="https://www.churchofjesuschrist.org/media-library/images?lang=eng" target="_blank" rel="noopener noreferrer">The Church of Jesus Christ of Latter-day Saints</a>.</em></p>
+    </footer>
 </body>
 
 </html>
